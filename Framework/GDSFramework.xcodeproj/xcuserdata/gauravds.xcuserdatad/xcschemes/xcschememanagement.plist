@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>ImageBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>A4214BD01CD225C300CE8C35</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4214BFF1CD22B0100CE8C35</key>
 		<dict>
 			<key>primary</key>
 			<true/>
