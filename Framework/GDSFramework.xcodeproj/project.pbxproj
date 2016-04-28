@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A4214BD01CD225C300CE8C35 /* GDSFrameworkKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A4214BD11CD225C300CE8C35 /* Build configuration list for PBXAggregateTarget "GDSFrameworkKit" */;
+			buildPhases = (
+				A4214BD61CD225E300CE8C35 /* Build Framework */,
+			);
+			dependencies = (
+				A4214BD51CD225CF00CE8C35 /* PBXTargetDependency */,
+			);
+			name = GDSFrameworkKit;
+			productName = GDSFrameworkKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A4214BC31CD2228300CE8C35 /* GDSFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4214BC21CD2228300CE8C35 /* GDSFramework.h */; };
+		A4214BCD1CD222EC00CE8C35 /* NewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4214BCC1CD222EC00CE8C35 /* NewModel.m */; };
+		A4214BCE1CD2249000CE8C35 /* NewModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4214BCB1CD222EC00CE8C35 /* NewModel.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4214BD41CD225CF00CE8C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4214BB71CD2228300CE8C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4214BBE1CD2228300CE8C35;
+			remoteInfo = GDSFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4214BBD1CD2228300CE8C35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A4214BCE1CD2249000CE8C35 /* NewModel.h in CopyFiles */,
+				A4214BC31CD2228300CE8C35 /* GDSFramework.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4214BBF1CD2228300CE8C35 /* libGDSFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGDSFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4214BC21CD2228300CE8C35 /* GDSFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDSFramework.h; sourceTree = "<group>"; };
+		A4214BCB1CD222EC00CE8C35 /* NewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewModel.h; sourceTree = "<group>"; };
+		A4214BCC1CD222EC00CE8C35 /* NewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4214BBC1CD2228300CE8C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4214BB61CD2228300CE8C35 = {
+			isa = PBXGroup;
+			children = (
+				A4214BC11CD2228300CE8C35 /* GDSFramework */,
+				A4214BC01CD2228300CE8C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4214BC01CD2228300CE8C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4214BBF1CD2228300CE8C35 /* libGDSFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4214BC11CD2228300CE8C35 /* GDSFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A4214BC21CD2228300CE8C35 /* GDSFramework.h */,
+				A4214BCB1CD222EC00CE8C35 /* NewModel.h */,
+				A4214BCC1CD222EC00CE8C35 /* NewModel.m */,
+			);
+			path = GDSFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4214BBE1CD2228300CE8C35 /* GDSFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4214BC81CD2228300CE8C35 /* Build configuration list for PBXNativeTarget "GDSFramework" */;
+			buildPhases = (
+				A4214BBB1CD2228300CE8C35 /* Sources */,
+				A4214BBC1CD2228300CE8C35 /* Frameworks */,
+				A4214BBD1CD2228300CE8C35 /* CopyFiles */,
+				A4214BCF1CD224F300CE8C35 /* Build Static Library */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDSFramework;
+			productName = GDSFramework;
+			productReference = A4214BBF1CD2228300CE8C35 /* libGDSFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4214BB71CD2228300CE8C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Punchh;
+				TargetAttributes = {
+					A4214BBE1CD2228300CE8C35 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A4214BD01CD225C300CE8C35 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A4214BBA1CD2228300CE8C35 /* Build configuration list for PBXProject "GDSFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4214BB61CD2228300CE8C35;
+			productRefGroup = A4214BC01CD2228300CE8C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4214BBE1CD2228300CE8C35 /* GDSFramework */,
+				A4214BD01CD225C300CE8C35 /* GDSFrameworkKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4214BCF1CD224F300CE8C35 /* Build Static Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Static Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers dir\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n\n# Create the required symlinks\n/bin/ln -sfh \"${FRAMEWORK_VERSION}\" \"${FRAMEWORK_LOCN}/Versions/Current\"\n\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/${FRAMEWORK_VERSION}/Headers\"";
+		};
+		A4214BD61CD225E300CE8C35 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\necho \"Building for configuration ${CONFIGURATION}\"\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\necho \"Exiting Multiple Build Command\"\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    echo \"Building for sdk ${1} configuration ${CONFIGURATION}\"\n    \n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n    \n}\n\n# Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\necho \"Making fat library\"\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/${FRAMEWORK_VERSION}/${RW_FRAMEWORK_NAME}\"\n\necho \"Copying things\"\n# Ensure that the framework is present in both platorm's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/${FRAMEWORK_VERSION}/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/${FRAMEWORK_VERSION}/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/GDSFramework/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction copy_headers {\n    for f in $(find ${1} -name '*.h' -or -name '*.doc');\n    do\n    cp \"${f}\" \"${UNIVERSAL_OUTPUTFOLDER}/include/\" ;\n    done\n}\n\nopen \"${HOME}/Desktop/GDSFramework/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4214BBB1CD2228300CE8C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4214BCD1CD222EC00CE8C35 /* NewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4214BD51CD225CF00CE8C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4214BBE1CD2228300CE8C35 /* GDSFramework */;
+			targetProxy = A4214BD41CD225CF00CE8C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4214BC61CD2228300CE8C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4214BC71CD2228300CE8C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4214BC91CD2228300CE8C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/GDSFramework;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4214BCA1CD2228300CE8C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/GDSFramework;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A4214BD21CD225C300CE8C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4214BD31CD225C300CE8C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4214BBA1CD2228300CE8C35 /* Build configuration list for PBXProject "GDSFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4214BC61CD2228300CE8C35 /* Debug */,
+				A4214BC71CD2228300CE8C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4214BC81CD2228300CE8C35 /* Build configuration list for PBXNativeTarget "GDSFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4214BC91CD2228300CE8C35 /* Debug */,
+				A4214BCA1CD2228300CE8C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4214BD11CD225C300CE8C35 /* Build configuration list for PBXAggregateTarget "GDSFrameworkKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4214BD21CD225C300CE8C35 /* Debug */,
+				A4214BD31CD225C300CE8C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4214BB71CD2228300CE8C35 /* Project object */;
+}
